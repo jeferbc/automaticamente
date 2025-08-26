@@ -27,11 +27,11 @@ const Automaticamente = () => {
       <Header className="saas1" />
       <BannerSection />
       <FeatureSection />
-      <BuildSection />
+      {/* <BuildSection /> */}
+      <SubscribeSection />
       <WorkSection />
       <PriceSection />
       <TestimonialSection />
-      <SubscribeSection />
       <FaqSection />
       <ClientSection />
       <FooterSection />

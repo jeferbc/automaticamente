@@ -33,7 +33,7 @@ const Testimonial = () => {
                             </div>
                             <hr />
                             <div className="sub-title">
-                                <p className="p-padding">Automaticamente transformó completamente nuestros procesos. Lo que antes nos tomaba 40 horas semanales ahora se hace automáticamente. Hemos recuperado la inversión en solo 3 meses.</p>
+                                <p className="p-padding">Empresas de todos los tamaños confían en nosotros para transformar sus operaciones. Descubre por qué el 95% de nuestros clientes recomienda nuestros servicios de automatización.</p>
                             </div>
                         </div>
                     </Col>
@@ -59,7 +59,7 @@ const Testimonial = () => {
                                     <div className="testimonial">
                                         <div className="testimonial-box">
                                             <img alt="dot" src="/assets/images/saas1/testimonail-dot.png" />
-                                            <h6>Automaticamente transformó completamente nuestros procesos. Lo que antes nos tomaba 40 horas semanales ahora se hace automáticamente. Hemos recuperado la inversión en solo 3 meses.</h6>
+                                            <h6>Implementamos automatizaciones que nos ahorran 60 horas semanales. El ROI fue del 450% en 4 meses. Nuestros procesos de ventas son ahora completamente automáticos y escalables.</h6>
                                         </div>
                                     </div>
                                     <div className="testi-profile">
@@ -67,7 +67,25 @@ const Testimonial = () => {
                                             <img alt="profile-testimonial"
                                                 src="/assets/images/saas1/testi-profile.png" />
                                             <div className="flex-grow-1">
-                                                <h5 className="mt-0">María González</h5>
+                                                <h5 className="mt-0">Roberto Silva</h5>
+                                                <h6>CEO TechSolutions</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="item">
+                                    <div className="testimonial">
+                                        <div className="testimonial-box">
+                                            <img alt="dot" src="/assets/images/saas1/testimonail-dot.png" />
+                                            <h6>Conectaron nuestro ERP con 15 aplicaciones diferentes. Los dashboards en tiempo real y la sincronización automática eliminaron el 90% de nuestro trabajo manual.</h6>
+                                        </div>
+                                    </div>
+                                    <div className="testi-profile">
+                                        <div className="d-flex align-items-center">
+                                            <img alt="Generic placeholder image"
+                                                src="/assets/images/saas1/testi-profile.png" />
+                                            <div className="flex-grow-1">
+                                                <h5 className="mt-0">Patricia López</h5>
                                                 <h6>Directora de Operaciones</h6>
                                             </div>
                                         </div>
@@ -77,33 +95,15 @@ const Testimonial = () => {
                                     <div className="testimonial">
                                         <div className="testimonial-box">
                                             <img alt="dot" src="/assets/images/saas1/testimonail-dot.png" />
-                                            <h6>La integración entre nuestro CRM, sistema de facturación y email marketing es perfecta. Los flujos de n8n que implementaron son robustos y confiables. Recomendado 100%.</h6>
-                                        </div>
-                                    </div>
-                                    <div className="testi-profile">
-                                        <div className="d-flex align-items-center">
-                                            <img alt="Generic placeholder image"
-                                                src="/assets/images/saas1/testi-profile.png" />
-                                            <div className="flex-grow-1">
-                                                <h5 className="mt-0">Carlos Ruiz</h5>
-                                                <h6>CEO StartupMX</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="item">
-                                    <div className="testimonial">
-                                        <div className="testimonial-box">
-                                            <img alt="dot" src="/assets/images/saas1/testimonail-dot.png" />
-                                            <h6>Nunca pensé que automatizar lead nurturing fuera tan efectivo. Nuestro engagement aumentó 300% y el tiempo de conversión se redujo a la mitad. Excelente servicio técnico.</h6>
+                                            <h6>Las automatizaciones de inventario y reposición automática nos ahorraron $50k anuales en costos operativos. El sistema es tan inteligente que anticipa nuestras necesidades.</h6>
                                         </div>
                                     </div>
                                     <div className="testi-profile">
                                         <div className="d-flex align-items-center">
                                             <img alt="profile" src="/assets/images/saas1/testi-profile.png" />
                                             <div className="flex-grow-1">
-                                                <h5 className="mt-0">Ana Martínez</h5>
-                                                <h6>Gerente de Marketing</h6>
+                                                <h5 className="mt-0">Miguel Torres</h5>
+                                                <h6>Director de Supply Chain</h6>
                                             </div>
                                         </div>
                                     </div>

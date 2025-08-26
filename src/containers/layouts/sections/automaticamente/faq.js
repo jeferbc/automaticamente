@@ -7,33 +7,36 @@ const Faq = () => {
     const FaqContent1 = () => (
         <div className="collapse show">
             <div className="card-body">
-                n8n es una plataforma de automatización de código abierto que te permite conectar cualquier aplicación con cualquier otra. 
-                A diferencia de Zapier o Make, n8n no tiene limitaciones en el número de operaciones y puedes desplegarlo en tu propia infraestructura, 
-                garantizando total control de tus datos.
+                Nuestros clientes experimentan un ROI promedio de 400-600% en los primeros 12 meses. El ahorro típico incluye 
+                50+ horas semanales por empleado, reducción del 90% en errores manuales y mejora del 300% en velocidad de procesamiento 
+                de datos. El período de recuperación de la inversión es generalmente de 2-4 meses.
             </div>
         </div>
     );
     const FaqContent2 = () => (
         <div className="collapse show">
             <div className="card-body">
-                Dependiendo de la complejidad, una automatización simple puede estar funcionando en 1-2 días, mientras que integraciones 
-                complejas pueden tomar 1-2 semanas. Siempre proporcionamos un timeline detallado antes de comenzar.
+                Nuestro proceso incluye 5 fases: Consultoría inicial (1-2 días), Análisis profundo (3-5 días), Diseño de arquitectura 
+                (5-7 días), Implementación y testing (1-3 semanas), y Monitoreo continuo. Automatizaciones simples pueden estar 
+                funcionando en 48 horas, mientras que sistemas complejos toman 2-4 semanas.
             </div>
         </div>
     );
     const FaqContent3 = () => (
         <div className="collapse show">
             <div className="card-body">
-                n8n tiene más de 300 integraciones nativas incluyendo Salesforce, HubSpot, Gmail, Slack, Google Sheets, MySQL, PostgreSQL, 
-                y muchas más. Si tu aplicación no está disponible nativamente, podemos crear integraciones personalizadas.
+                Sí, n8n es altamente escalable desde pequeños negocios hasta empresas Fortune 500. Utilizamos arquitectura en la nube 
+                que crece automáticamente con tu demanda. Hemos implementado sistemas que procesan millones de transacciones diarias 
+                sin pérdida de performance. Nuestros planes Enterprise incluyen infraestructura dedicada con SLA del 99.9%.
             </div>
         </div>
     );
     const FaqContent4 = () => (
         <div className="collapse show">
             <div className="card-body">
-                Nuestros clientes típicamente ven un ROI de 300-500% en el primer año. El ahorro promedio es de 40 horas semanales por empleado 
-                en tareas repetitivas, además de reducir errores humanos significativamente.
+                Implementamos seguridad de nivel empresarial: cifrado end-to-end, autenticación de dos factores, logs de auditoría 
+                completos y compliance con GDPR/CCPA. n8n al ser código abierto permite hosting privado para máximo control. 
+                Realizamos auditorías de seguridad trimestrales y mantenemos certificaciones SOC 2 Type II.
             </div>
         </div>
     );
@@ -48,16 +51,16 @@ const Faq = () => {
                                 <h6>Resolvemos las dudas más comunes sobre automatización de procesos con n8n. 
                                     Si tienes alguna pregunta específica, no dudes en contactarnos.</h6>
                                 <Accordion atomic={true}>
-                                    <AccordionItem className="card-header bg-primary" title="¿Qué es n8n y por qué es mejor que otras plataformas?">
+                                    <AccordionItem className="card-header bg-primary" title="¿Cuál es el ROI real de automatizar mi negocio?">
                                         <FaqContent1 className="active" />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="¿Cuánto tiempo toma implementar una automatización?">
+                                    <AccordionItem className="card-header bg-primary" title="¿Cómo es el proceso de implementación paso a paso?">
                                         <FaqContent2 />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="¿Qué aplicaciones pueden integrarse con n8n?">
+                                    <AccordionItem className="card-header bg-primary" title="¿Las automatizaciones pueden escalar con mi crecimiento?">
                                         <FaqContent3 />
                                     </AccordionItem>
-                                    <AccordionItem className="card-header bg-primary" title="¿Cuál es el ROI típico de automatizar procesos?">
+                                    <AccordionItem className="card-header bg-primary" title="¿Qué tan seguras son las automatizaciones para mis datos?">
                                         <FaqContent4 />
                                     </AccordionItem>
                                 </Accordion>
