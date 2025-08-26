@@ -12,14 +12,12 @@ const Feature = () => (
                             <img alt="title-logo" className="img-fluid" src="/assets/images/saas1/title-logo.png" />
                             <div className="main-title">
                                 <h2>
-                                    <span className="theme-color">¿P</span>or qué <span className="theme-color">A</span>utomaticamente?
+                                    <span className="theme-color">¿P</span>or qué elegir <span className="theme-color">A</span>utomáticamente?
                                 </h2>
                             </div>
                             <hr />
                             <div className="sub-title">
-                                <p className="p-padding">Transformamos tu negocio eliminando cuellos de botella y optimizando procesos. 
-                                    Con n8n creamos automatizaciones poderosas que te permiten enfocarte en lo estratégico mientras 
-                                    la tecnología se encarga del resto.</p>
+                                <p className="p-padding">Nos especializamos en transformar los procesos que te quitan tiempo en flujos de trabajo eficientes y sin errores. Nuestra meta es clara: soluciones simples para negocios reales.</p>
                             </div>
                         </div>
                     </Col>

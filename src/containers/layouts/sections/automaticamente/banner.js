@@ -10,18 +10,17 @@ const Banner = () => (
                             <div>
                                 <div className="header-text">
                                     <div className="d-flex">
-                                        <h1><span className="theme-color">A</span>utomática<span
-                                            className="small-text">mente </span><span className="theme-color">E</span>ficiente</h1>
+                                        <h1 style={{textTransform: 'none'}}><span className="theme-color">A</span>utomatizamos tu <span >negocio. </span></h1>
                                         <div className="center-content slider-logo">
                                             <img alt="" className="img-fluid" src="/assets/images/saas1/slider-logo.png" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="header-sub-text">
-                                    <h3 className="text-white">Elimina <span className="theme-color">cuellos de botella</span> y automatiza procesos con n8n</h3>
+                                    <h3 style={{textTransform: 'none'}} className="text-white">Olvídate de los <span className="theme-color">cuellos de botella.</span> Resolvemos tus problemas de tiempo y procesos para que te enfoques en crecer.</h3>
                                 </div>
                                 <div className="header-sub-text">
-                                    <h6>Ahorra hasta <span className="theme-color">40 horas semanales</span> automatizando tareas repetitivas</h6>
+                                    <h6 style={{textTransform: 'none'}}>Optimiza tu negocio de forma <span className="theme-color">simple y sin complicaciones.</span></h6>
                                 </div>
                                 <div className="link-horizontal">
                                     <ul>

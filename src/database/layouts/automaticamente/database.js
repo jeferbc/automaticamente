@@ -4,31 +4,31 @@ module.exports = {
             img: '/assets/images/saas1/feature/1.png',
             heading: 'Automatización',
             layout: 'Inteligente',
-            desc: 'Conectamos tus herramientas favoritas para crear flujos de trabajo automáticos que eliminen tareas repetitivas y liberen tiempo para lo que realmente importa.'
+            desc: 'Conectamos tus herramientas de trabajo para crear flujos automáticos que eliminan las tareas repetitivas. Gana tiempo y enfócate en lo que realmente hace crecer tu negocio.'
         },
         {
             img: '/assets/images/saas1/feature/2.png',
-            heading: 'Integración',
-            layout: 'Sin Límites',
-            desc: 'Con más de 300 aplicaciones compatibles, conectamos CRM, emails, hojas de cálculo, bases de datos y cualquier herramienta que uses en tu negocio.'
+            heading: 'Conexión Sin',
+            layout: 'Límites',
+            desc: 'No importa qué herramientas uses hoy, las conectamos todas. Desde tu CRM hasta tus hojas de cálculo y bases de datos, creamos un ecosistema digital donde toda la información fluye para que tu negocio funcione como un reloj.'
         },
         {
             img: '/assets/images/saas1/feature/3.png',
-            heading: 'Ahorro de',
-            layout: 'Tiempo',
-            desc: 'Nuestros clientes ahorran un promedio de 40 horas semanales automatizando procesos. Tiempo que pueden invertir en hacer crecer su negocio.'
+            heading: 'Tiempo a tu',
+            layout: 'Favor',
+            desc: 'Nuestros clientes ahorran un promedio de 40 horas a la semana. Ese es el tiempo que recuperas para dedicarte a la visión de tu negocio, no a las tareas operativas.'
         },
         {
             img: '/assets/images/saas1/feature/4.png',
-            heading: 'Código',
-            layout: 'Abierto',
-            desc: 'Utilizamos n8n, la plataforma de automatización de código abierto más potente. Sin costos ocultos, máximo control de tus datos.'
+            heading: 'Tecnología Abierta y',
+            layout: 'Transparente',
+            desc: 'Trabajamos con n8n, la plataforma de código abierto más potente. Esto nos permite ofrecerte soluciones transparentes, sin costos ocultos y con el máximo control sobre tus datos.'
         },
         {
             img: '/assets/images/saas1/feature/5.png',
-            heading: 'Soporte',
-            layout: 'Experto',
-            desc: 'Equipo especializado en n8n con años de experiencia. Te acompañamos desde la consultoría inicial hasta la implementación completa.'
+            heading: 'Soporte de Expertos',
+            layout: 'a tu Lado',
+            desc: 'Con nuestro equipo de especialistas en n8n, no estás solo. Te acompañamos desde la consultoría inicial hasta la implementación completa para que tus soluciones funcionen a la perfección.'
         },
         {
             img: '/assets/images/saas1/feature/6.png',
@@ -60,19 +60,23 @@ module.exports = {
     ContentData: [
         {
             img: '/assets/images/saas1/tab/Initializing.png',
-            title: 'Análisis'
+            title: 'Análisis',
+            desc: 'Analizamos tus necesidades específicas y procesos actuales para identificar las mejores oportunidades de automatización que generen el mayor impacto en tu negocio.'
         },
         {
             img: '/assets/images/saas1/tab/Add-instant.png',
-            title: 'Diseño'
+            title: 'Diseño',
+            desc: 'Diseñamos la solución perfecta para tu negocio, creando flujos de trabajo eficientes y escalables que se adapten exactamente a tus necesidades.'
         },
         {
             img: '/assets/images/saas1/tab/Configuration.png',
-            title: 'Implementación'
+            title: 'Implementación',
+            desc: 'Implementamos la solución con cuidado y precisión, asegurándonos de que cada automatización funcione perfectamente y sin interrumpir tus operaciones.'
         },
         {
             img: '/assets/images/saas1/tab/Api.png',
-            title: 'Optimización'
+            title: 'Optimización',
+            desc: 'Optimizamos continuamente para asegurar resultados excepcionales, monitoreamos el rendimiento y ajustamos según sea necesario para maximizar la eficiencia.'
         }
     ]
 }

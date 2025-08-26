@@ -70,60 +70,60 @@ const Price = () => {
                             <Slider className="owl-carousel owl-theme pricing-slider plan-box" {...settings}>
                                 <div className="item">
                                     <div className="price-box">
-                                        <h3 className="price-heading">consultoría</h3>
+                                        <h3 className="price-heading">básico</h3>
                                         <img alt="plan-line" src="/assets/images/saas1/plan-box.png" />
-                                        <h4 className="no-weight">$<span>0</span>/Sesión</h4>
+                                        <h4 className="no-weight">$<span>800</span>/Mes</h4>
                                         <ul className="p-0">
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>1 </span>
-                                                Sesión gratuita de 60 minutos
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>Hasta 3 </span>
+                                                automatizaciones simples
                                             </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Análisis de procesos
-                                                actuales
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />5 aplicaciones
+                                                integradas máximo
                                             </li>
                                             <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" />Identificación de oportunidades
+                                                src="/assets/images/saas1/plan-round.png" />Setup e implementación incluida
                                             </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Propuesta personalizada
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Soporte por email
                                             </li>
-                                            <li>Roadmap de automatización</li>
-                                            <li>Estimación de ROI</li>
-                                            <li>Sin compromiso</li>
+                                            <li>Documentación básica</li>
+                                            <li>1 sesión de capacitación</li>
+                                            <li>Ideal para pequeños negocios</li>
                                         </ul>
-                                        <a className="btn btn-default btn-white" href="#contacto">Agendar Gratis</a>
+                                        <a className="btn btn-default btn-white" href="#contacto">Comenzar Básico</a>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="price-box active">
-                                        <h3 className="price-heading">starter</h3>
+                                        <h3 className="price-heading">profesional</h3>
                                         <img alt="plan-line" src="/assets/images/saas1/plan-box.png" />
-                                        <h4 className="no-weight">$<span>1,500</span>/Mes</h4>
+                                        <h4 className="no-weight">$<span>2,500</span>/Mes</h4>
                                         <ul className="p-0">
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>Hasta 5 </span>
-                                                automatizaciones
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" /><span>Hasta 8 </span>
+                                                automatizaciones complejas
                                             </li>
                                             <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" /><span>10 </span> aplicaciones 
+                                                src="/assets/images/saas1/plan-round.png" /><span>20 </span> aplicaciones 
                                            integradas
                                             </li>
                                             <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" />Configuración e implementación
+                                                src="/assets/images/saas1/plan-round.png" />APIs personalizadas incluidas
                                             </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Soporte por email
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Soporte vía WhatsApp
                                             </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Documentación completa
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Dashboard de monitoreo
                                             </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Capacitación básica
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Capacitación avanzada
                                             </li>
-                                            <li>1 mes de soporte incluido</li>
+                                            <li>3 meses de soporte incluido</li>
                                         </ul>
-                                        <a className="btn btn-default btn-white" href="#contacto">Comenzar Ahora</a>
+                                        <a className="btn btn-default btn-white" href="#contacto">Más Popular</a>
                                     </div>
                                 </div>
                                 <div className="item">
                                     <div className="price-box">
                                         <h3 className="price-heading">enterprise</h3>
                                         <img alt="plan-line" src="/assets/images/saas1/plan-box.png" />
-                                        <h4 className="no-weight">$<span>5,000</span>/Mes</h4>
+                                        <h4 className="no-weight">$<span>7,500</span>/Mes</h4>
                                         <ul className="p-0">
                                             <li><img alt="plan-icon"
                                                 src="/assets/images/saas1/plan-round.png" /><span>Automatizaciones </span>
@@ -131,18 +131,18 @@ const Price = () => {
                                             </li>
                                             <li><img alt="plan-icon"
                                                 src="/assets/images/saas1/plan-round.png" /><span>Integraciones</span>
-                                                ilimitadas
+                                                y APIs ilimitadas
                                             </li>
                                             <li><img alt="plan-icon"
-                                                src="/assets/images/saas1/plan-round.png" />Arquitectura personalizada
+                                                src="/assets/images/saas1/plan-round.png" />Infraestructura dedicada
                                             </li>
                                             <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Soporte prioritario 24/7
                                             </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Consultor dedicado
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Consultor dedicado + equipo
                                             </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Capacitación avanzada
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />Desarrollo personalizado
                                             </li>
-                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />SLA garantizado
+                                            <li><img alt="plan-icon" src="/assets/images/saas1/plan-round.png" />SLA 99.9% uptime
                                             </li>
                                         </ul>
                                         <a className="btn btn-default btn-white" href="#contacto">Contactar Ventas</a>

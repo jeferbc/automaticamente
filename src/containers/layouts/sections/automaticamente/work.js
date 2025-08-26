@@ -21,9 +21,7 @@ const Work = () => {
                             </div>
                             <hr />
                             <div className="sub-title">
-                                <p className="p-padding">Un proceso probado en 4 pasos que transforma tu negocio. 
-                                Desde el análisis inicial hasta la optimización continua, te acompañamos en cada etapa 
-                                de tu transformación digital.</p>
+                                <p className="p-padding">Te guiamos en cada paso. Nuestro proceso de 4 fases transforma tu negocio de forma simple: analizamos tus necesidades, diseñamos la solución, la implementamos y optimizamos para asegurar resultados.</p>
                             </div>
                         </div>
                     </Col>
@@ -53,7 +51,19 @@ const Work = () => {
                     {ContentData.map((item, i) => {
                         return (
                             <div className={`tab-pane fade ${item.title === nav ? 'show active' : ''}`} role="tabpanel" key={i}>
-                                <img alt={`proceso-${item.title}`} className="img-fluid" src={item.img} />
+                                <Container>
+                                    <Row>
+                                        <Col md="6">
+                                            <img alt={`proceso-${item.title}`} className="img-fluid" src={item.img} />
+                                        </Col>
+                                        <Col md="6" className="d-flex align-items-center">
+                                            <div>
+                                                <h3 className="text-white">{item.title}</h3>
+                                                <p className="text-white">{item.desc}</p>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </Container>
                             </div>
                         )
                     })}

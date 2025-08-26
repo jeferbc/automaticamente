@@ -8,8 +8,8 @@ const Subscribe = () => (
                     <div className="d-flex align-items-center">
                         <img alt="profile" src="/assets/images/saas1/subscribe-icon.png" />
                         <div className="flex-grow-1">
-                            <h3 className="mt-0 text-white">Consultoría Gratuita de 30 días</h3>
-                            <h6 className="text-white">¿Listo para automatizar tu negocio? Comienza con una consultoría gratuita y descubre cómo n8n puede transformar tus procesos.
+                            <h3 className="mt-0 text-white">Transforma tu Negocio en 30 Días</h3>
+                            <h6 className="text-white">Obtén una auditoría gratuita de automatización y descubre cómo puedes ahorrar 50+ horas semanales con n8n. Incluye roadmap personalizado y estimación de ROI.
                         </h6>
                         </div>
                     </div>
@@ -18,11 +18,12 @@ const Subscribe = () => (
                     <div className="subscribe-input">
                         <form>
                             <input id="useremail" placeholder="Email empresarial" required type="email" />
-                            <input id="submit" type="submit" value="Comenzar Ahora" />
+                            <input id="userphone" placeholder="WhatsApp (opcional)" type="tel" />
+                            <input id="submit" type="submit" value="Agendar Auditoría" />
                         </form>
                         <div className="text text-center d-flex">
-                            <h6 className="text-white">Consultoría gratuita</h6><h6 className="text-white">Respuesta en 24h</h6><h6
-                                className="text-white">Sin compromiso</h6>
+                            <h6 className="text-white">Auditoría gratuita</h6><h6 className="text-white">Respuesta en 2 horas</h6><h6
+                                className="text-white">Roadmap incluido</h6>
                         </div>
                     </div>
                 </Col>
