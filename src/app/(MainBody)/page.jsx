@@ -33,8 +33,8 @@ const Automaticamente = () => {
       <PriceSection />
       <TestimonialSection />
       <FaqSection />
-      <ClientSection />
-      <FooterSection />
+      {/* <ClientSection /> */}
+      {/* <FooterSection /> */}
       <Copyright />
     </div>
   );
