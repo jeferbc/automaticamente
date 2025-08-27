@@ -8,10 +8,13 @@ const Copyright = () => (
                     <div className="link-horizontal center-text">
                         <ul>
                             <li>
-                                <a className="copyright-text op-text" href="#privacidad">Política de Privacidad</a>
+                                <a className="copyright-text op-text" href="/politica-privacidad">Política de Privacidad</a>
                             </li>
                             <li>
-                                <a className="copyright-text op-text" href="#términos">Términos &amp; Condiciones</a>
+                                <a className="copyright-text op-text" href="/terminos-y-condiciones">Términos &amp; Condiciones</a>
+                            </li>
+                            <li>
+                                <a className="copyright-text op-text" href="/politica-cookies">Política de Cookies</a>
                             </li>
                         </ul>
                     </div>

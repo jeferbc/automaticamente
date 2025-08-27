@@ -17496,3 +17496,108 @@ footer {
 .Toastify{
   padding: 0;
 }
+
+/**************************
+ Policy Pages CSS
+*************************/
+.terms-section,
+.privacy-section,
+.cookies-section {
+  background: #f8fafc;
+  
+  .terms-content,
+  .privacy-content,
+  .cookies-content {
+    background: $white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    
+    h1 {
+      color: $primary;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    h2 {
+      color: $dark;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid $primary;
+      padding-bottom: 0.5rem;
+    }
+    
+    h3 {
+      color: $secondary;
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    
+    p {
+      line-height: 1.8;
+      margin-bottom: 1rem;
+      color: $body-color;
+    }
+    
+    ul {
+      margin-bottom: 1rem;
+      
+      li {
+        margin-bottom: 0.5rem;
+        line-height: 1.6;
+      }
+    }
+    
+    .table {
+      margin-top: 1.5rem;
+      border: 1px solid #e9ecef;
+      
+      thead th {
+        background-color: $primary;
+        color: $white;
+        border-color: $primary;
+        font-weight: 600;
+      }
+      
+      tbody tr:nth-of-type(odd) {
+        background-color: rgba($primary, 0.05);
+      }
+    }
+    
+    a {
+      color: $primary;
+      text-decoration: none;
+      
+      &:hover {
+        color: $secondary;
+        text-decoration: underline;
+      }
+    }
+    
+    strong {
+      color: $dark;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .terms-section,
+  .privacy-section,
+  .cookies-section {
+    .terms-content,
+    .privacy-content,
+    .cookies-content {
+      padding: 20px;
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
